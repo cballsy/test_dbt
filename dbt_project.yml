@@ -33,4 +33,8 @@ models:
     helloworld:
         materialized: view
         vars:
-            "base.customer": "SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.CUSTOMER"
+            "base.customer" : "SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.CUSTOMER"
+            "base.orders"   : "SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.ORDERS"
+            "base.lineitem" : "SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.LINEITEM"
+            "base.nation"   : "SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.NATION"
+            "base.part"     : "SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.PART"

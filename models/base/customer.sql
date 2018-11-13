@@ -15,5 +15,5 @@
 -- from
 --     {{ var ('base.customer') }}
 
-select *
+select 'dummy' as dummy_field, *
 from {{ var ('base.customer') }}

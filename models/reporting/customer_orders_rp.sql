@@ -1,3 +1,5 @@
+{{ config(materialized='view') }}
+
 with customer_xf as (
 	select * from {{ ref('customer_xf') }}
 ), orders_xf as (
